@@ -21,17 +21,17 @@ export const recipes: Recipe[] = [
     ingredients: [
       "Pizza dough",
       "Tomato sauce",
-      "Fresh mozzarella",
+      "Mozzarella cheese",
       "Fresh basil",
-      "Olive oil",
+      "Olive oil"
     ],
     steps: [
       "Prepare the pizza dough.",
       "Spread tomato sauce over the dough.",
       "Add mozzarella cheese.",
       "Bake until the crust is golden.",
-      "Add fresh basil and serve.",
-    ],
+      "Add fresh basil and serve."
+    ]
   },
   {
     id: "vegetable-pasta",
@@ -42,19 +42,19 @@ export const recipes: Recipe[] = [
     cuisine: "Italian",
     ingredients: [
       "Pasta",
-      "Carrots",
-      "Capsicum",
       "Tomatoes",
+      "Onions",
+      "Capsicum",
       "Olive oil",
-      "Salt",
+      "Salt and pepper"
     ],
     steps: [
       "Boil the pasta until cooked.",
       "Chop the vegetables.",
       "Heat olive oil in a pan.",
       "Add vegetables and cook.",
-      "Mix in the pasta and serve.",
-    ],
+      "Mix in the pasta and seasoning."
+    ]
   },
   {
     id: "chicken-biryani",
@@ -68,16 +68,16 @@ export const recipes: Recipe[] = [
       "Basmati rice",
       "Onions",
       "Tomatoes",
-      "Biryani spices",
       "Yogurt",
+      "Biryani spices"
     ],
     steps: [
       "Wash and soak the rice.",
-      "Prepare the chicken masala with spices.",
-      "Cook the rice separately until partially done.",
-      "Layer rice and chicken masala in a pot.",
-      "Cook together until fully done and serve.",
-    ],
+      "Prepare the chicken with spices and yogurt.",
+      "Cook the chicken with onions and tomatoes.",
+      "Cook the rice separately.",
+      "Layer the rice and chicken and finish cooking until done."
+    ]
   },
   {
     id: "chocolate-cake",
@@ -92,15 +92,15 @@ export const recipes: Recipe[] = [
       "Sugar",
       "Milk",
       "Butter",
-      "Baking powder",
+      "Baking powder"
     ],
     steps: [
-      "Mix flour, cocoa powder, sugar, and baking powder.",
+      "Mix flour, cocoa powder, sugar and baking powder.",
       "Add milk and melted butter.",
-      "Mix until the batter is smooth.",
-      "Pour into a prepared cake pan.",
-      "Bake until fully cooked and allow to cool.",
-    ],
+      "Mix until smooth.",
+      "Pour into a cake pan.",
+      "Bake until fully cooked."
+    ]
   },
   {
     id: "pancakes",
@@ -112,18 +112,18 @@ export const recipes: Recipe[] = [
     ingredients: [
       "Flour",
       "Milk",
-      "Egg",
       "Sugar",
-      "Baking powder",
+      "Egg",
       "Butter",
+      "Baking powder"
     ],
     steps: [
-      "Mix flour, sugar, and baking powder.",
+      "Mix flour, sugar and baking powder.",
       "Add milk and egg.",
-      "Whisk until smooth.",
-      "Cook small portions in a heated pan.",
-      "Serve with your favorite topping.",
-    ],
+      "Mix into a smooth batter.",
+      "Cook small portions in a pan.",
+      "Serve when both sides are cooked."
+    ]
   },
   {
     id: "sushi",
@@ -137,16 +137,16 @@ export const recipes: Recipe[] = [
       "Nori sheets",
       "Cucumber",
       "Avocado",
-      "Rice vinegar",
+      "Rice vinegar"
     ],
     steps: [
       "Cook the sushi rice.",
       "Season the rice with rice vinegar.",
       "Place a nori sheet on a rolling mat.",
-      "Spread rice and add vegetables.",
-      "Roll carefully and cut into pieces.",
-    ],
-  },
+      "Spread rice and vegetables over the nori.",
+      "Roll carefully and cut into pieces."
+    ]
+  }
 ];
 
 // Find a recipe using its ID
